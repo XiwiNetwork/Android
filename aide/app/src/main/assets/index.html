@@ -1,0 +1,80 @@
+<html>
+  <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+	<title>aide</title>
+	<link rel="stylesheet" href="css/style.css" />
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+
+
+  </head>
+  <body>
+
+	<h1>XIWI</h1>
+
+	<div class="main">
+	  <div class="main-head">
+		<p>问题</p>
+	  </div>
+	  <div class="main-body" style="display: none">
+		<p>答案</p>
+	  </div>
+	</div>
+
+	<div class="main">
+	  <div class="main-head">
+		<p>问题</p>
+	  </div>
+	  <div class="main-body" style="display: none">
+		<p>答案</p>
+	  </div>
+	</div>
+	
+	<div class="main">
+	  <div class="main-head">
+		<p>问题</p>
+	  </div>
+	  <div class="main-body" style="display: none">
+		<p>答案</p>
+	  </div>
+	</div>
+	
+	<button id="but">button</button>
+    <button class="main-b">BUTTON</button>
+
+  </body>
+  <script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript">
+
+$("#but").click(function() {
+	alert("hhh" + $('.main-body').eq(0).css("display"));
+	//alert($('.main-body').eq(0).style.display);
+});
+$(".main-head").click(function() {
+
+    var index = $(this).index();
+
+	 alert("head onClick: " + index);
+	
+	 var style = $('.main-body').eq(index).css("display");
+
+	 //alert("style: " + style);
+
+	 if (style == "none") {
+	 //alert("none");
+	 $('.main-head').eq(index).css("border-radius", "5px 5px 0px 0px");
+	 $('.main-body').eq(index).css("display", "block");
+	 } else {
+	 //alert("noneeee");
+	  $('.main-head').eq(index).css("border-radius", "5px 5px 5px 5px");
+	 $('.main-body').eq(index).css("display", "none");
+	 }
+	 
+});
+
+
+
+
+	
+</script>
+</html>

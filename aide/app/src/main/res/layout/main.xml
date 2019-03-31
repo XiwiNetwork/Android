@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:padding="10dp"
+	android:background="#EEEEEE">
+
+	<TextView
+		android:id="@+id/setTextView"
+		android:text="Setings"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="60dp"
+		android:layout_gravity="top|right"/>
+
+	<com.xiwi.aide.view.XiwiImageView
+		android:id="@+id/girls01"
+		android:layout_width="100dp"
+		android:layout_height="100dp"
+		android:src="@drawable/header"
+		android:contentDescription="@string/app_name"
+		android:layout_gravity="center_horizontal"
+		android:layout_margin="10dp"/>
+
+	<EditText
+		android:id="@+id/nameEditText"
+		android:hint="@string/name_edit_hint"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:lines="1"
+		android:background="@drawable/edit"
+		android:gravity="center"/>
+
+	<Button
+		android:id="@+id/startORoverBut"
+		android:text="@string/start_but"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/start_button"
+		android:layout_marginTop="20dp"
+		android:textSize="24sp"/>
+
+	<TextView
+		android:id="@+id/textView"
+		android:text="@string/hello_world"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Text"
+		android:id="@+id/resultTextView"/>
+
+</LinearLayout>
+

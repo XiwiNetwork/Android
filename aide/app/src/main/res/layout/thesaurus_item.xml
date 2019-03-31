@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:id="@+id/item_linear">
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:layout_margin="5dp"
+		android:background="@drawable/item">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="vertical"
+			android:id="@+id/item_linear_header">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:text="Text1432r43g5grervy5v637h6rune67n6eni7e6imtyimfuyyuText1432r43g5grervy5v637h6rune67n6eni7e6imtyimfuyyuText1432r43g5grervy5v637h6rune67n6eni7e6imtyimfuyyuText1432r43g5grervy5v637h6rune67n6eni7e6imtyimfuyyuText1432r43g5grervy5v637h6rune67n6eni7e6imtyimfuyyuText1432r43g5grervy5v637h6rune67n6eni7e6imtyimfuyyuText1432r43g5grervy5v637h6rune67n6eni7e6imtyimfuyyuText1432r43g5grervy5v637h6rune67n6eni7e6imtyimfuyyuText1432r43g5grervy5v637h6rune67n6eni7e6imtyimfuyyuText1432r43g5grervy5v637h6rune67n6eni7e6imtyimfuyyuText1432r43g5grervy5v637h6rune67n6eni7e6imtyimfuyyuText1432r43g5grervy5v637h6rune67n6eni7e6imtyimfuyyuText1432r43g5grervy5v637h6rune67n6eni7e6imtyimfuyyuText1432r43g5grervy5v637h6rune67n6eni7e6imtyimfuyyuText1432r43g5grervy5v637h6rune67n6eni7e6imtyimfuyyuText1432r43g5grervy5v637h6rune67n6eni7e6imtyimfuyyuText1432r43g5grervy5v637h6rune67n6eni7e6imtyimfuyyuText1432r43g5grervy5v637h6rune67n6eni7e6imtyimfuyyuu"
+				android:id="@+id/item_keyword_text"
+				android:textSize="18sp"
+				android:maxLines="2"
+				android:textColor="#000000"
+				android:padding="5dp"
+				android:background="@drawable/item_head"/>
+
+		</LinearLayout>
+
+		<View
+			android:background="?android:attr/dividerVertical"
+			android:layout_height="1dp"
+			android:layout_width="match_parent"/>
+
+		<LinearLayout
+			android:id="@+id/item_linear_body"
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="vertical">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:text="Text"
+				android:id="@+id/item_reoly_text"
+				android:textSize="18sp"
+				android:maxLines="5"
+				android:textColor="#000000"
+				android:background="#FFFFFF"
+				android:padding="5dp"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+

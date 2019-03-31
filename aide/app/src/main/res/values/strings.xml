@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">aide</string>
+    <string name="hello_world">Hello world!</string>
+  
+    <string name="name_edit_hint">your name ?</string>
+    
+    <string name="start_but">start</string>
+    <string name="over_but">over</string>
+    
+</resources>
