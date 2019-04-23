@@ -58,11 +58,11 @@ public class ListAdapter extends BaseAdapter {
             //holder.item_but = (Button) convertView.findViewById(R.id.item_but);
             holder.item_linear_body = (LinearLayout) convertView.findViewById(R.id.item_linear_body);
             holder.item_reoly_text = (TextView) convertView.findViewById(R.id.item_reoly_text);
-            System.out.println("getView is ok");
+            //System.out.println("getView is ok");
             convertView.setTag(holder);           
         } else {
             holder = (ViewHolder) convertView.getTag();
-            System.out.println("getTag");
+            //System.out.println("getTag");
         }
         
         if (currentItem == position) {
@@ -78,16 +78,16 @@ public class ListAdapter extends BaseAdapter {
             @Override
             public void onClick(View v) {
                 int tag = (Integer)v.getTag();
-                System.out.println("tag: " + tag);
-                System.out.println("item: " + currentItem);
+                //System.out.println("tag: " + tag);
+                //System.out.println("item: " + currentItem);
                 if (tag == currentItem) {
                     currentItem = -1;
                 } else {
                     currentItem = tag;
                 }
-                System.out.println("okokokok");
+                //System.out.println("okokokok");
                 notifyDataSetChanged();
-                System.out.println("over");
+                //System.out.println("over");
                 
             }
         });
@@ -97,7 +97,7 @@ public class ListAdapter extends BaseAdapter {
         holder.item_reoly_text.setText(thes.getReply());
         
         
-        System.out.println("position0: " + position);
+        //System.out.println("position0: " + position);
         holder.item_linear_header.setTag(position);
         
         return convertView;

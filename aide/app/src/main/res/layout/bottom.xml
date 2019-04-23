@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:background="@drawable/buttom_bg">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="0dp"
+		android:orientation="vertical"
+		android:layout_weight="1.0"
+		android:gravity="center"
+		android:padding="10dp"
+        android:clickable="true"
+		android:onClick="linearOnClick"
+		android:id="@+id/LinearMsg">
+
+		<ImageView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:src="@android:drawable/ic_delete"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="msg"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="0dp"
+		android:orientation="vertical"
+		android:layout_weight="1.0"
+		android:gravity="center"
+		android:padding="10dp"
+        android:clickable="true"
+		android:onClick="linearOnClick">
+
+		<ImageView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:src="@android:drawable/ic_delete"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Text"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="0dp"
+		android:orientation="vertical"
+		android:layout_weight="1.0"
+		android:gravity="center"
+		android:padding="10dp"
+		android:id="@+id/LinearHome"
+        android:clickable="true"
+		android:onClick="linearOnClick">
+
+		<ImageView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:src="@android:drawable/ic_delete"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Home"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="0dp"
+		android:orientation="vertical"
+		android:layout_weight="1.0"
+		android:gravity="center"
+		android:padding="10dp"
+        android:clickable="true"
+		android:onClick="linearOnClick"
+		android:id="@+id/LinearThesaurus">
+
+		<ImageView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:src="@android:drawable/ic_delete"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="词库"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="0dp"
+		android:orientation="vertical"
+		android:layout_weight="1.0"
+		android:gravity="center"
+		android:padding="10dp"
+        android:clickable="true"
+		android:onClick="linearOnClick"
+		android:id="@+id/LinearMy">
+
+		<ImageView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:src="@android:drawable/ic_delete"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="My"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

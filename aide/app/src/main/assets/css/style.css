@@ -2,6 +2,31 @@
   margin:0;
   padding:0;
 }
+
+#div{
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  background-color:#eee;
+}
+#div>img{
+  width:90%;
+  height:90%;
+  /* 显示样式可以自己改 */
+}
+
+
+
+
+
+
+
+
+
+
+
 body{
   /*background:#000;*/
 }
